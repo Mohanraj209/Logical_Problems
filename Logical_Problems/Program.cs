@@ -11,6 +11,7 @@ namespace Logical_Problems
         public static void Main()
         {
             Console.WriteLine("--------**** Welcome to Logical Programs ****-------");
+            Logical_pgms.Fibonacci();
         }
     }
 }
