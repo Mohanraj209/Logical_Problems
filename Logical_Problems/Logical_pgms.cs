@@ -86,6 +86,24 @@ namespace Logical_Problems
 				}
 			}
 		}
+
+		/// <summary>
+		/// Code for Reverse number..
+		/// </summary>
+		public static void Reverse_num()
+		{
+
+			int num, reverse = 0;
+			Console.WriteLine("\n Enter the number to reverse it");
+			num = Convert.ToInt32(Console.ReadLine());
+			for (; num != 0; num = num / 10)
+			{
+				int remainder = num % 10;
+				reverse = reverse * 10 + remainder;
+			}
+			Console.WriteLine("The reverse of the given number is: " + reverse);
+		}
+
 	}
 }
 

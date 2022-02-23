@@ -14,6 +14,7 @@ namespace Logical_Problems
             Logical_pgms.Fibonacci();
             Logical_pgms.Perfect_num();
             Logical_pgms.Prime_num();
+            Logical_pgms.Reverse_num();
         }
     }
 }
