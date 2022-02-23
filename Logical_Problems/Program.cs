@@ -12,6 +12,7 @@ namespace Logical_Problems
         {
             Console.WriteLine("--------**** Welcome to Logical Programs ****-------");
             Logical_pgms.Fibonacci();
+            Logical_pgms.Perfect_num();
         }
     }
 }
